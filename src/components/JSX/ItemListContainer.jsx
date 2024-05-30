@@ -3,8 +3,6 @@ import ItemList from '../JSX/ItemList';
 import {useParams} from 'react-router-dom'
 import {collection,getDocs,query,where} from 'firebase/firestore'
 import { db} from '../services/FirebaseConfig';
-import { Spinner, Container, Row } from 'react-bootstrap'
-import Item from '../JSX/Item'
 import '../CSS/Item.css'
 
 function ItemListContainer({gretting}) {
