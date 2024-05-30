@@ -17,4 +17,3 @@ npm install
 npm start
 Se abre una pestaña del navegador en el puerto 3000:
 
-Sino copiar esta URL y pegarla en el navegador: http://localhost:3000
